@@ -1,0 +1,9 @@
+.content {
+    max-width: 600px;
+    margin: auto auto;
+    margin-top: 24px;
+}
+
+.errors {
+    margin-top: 16px;
+}

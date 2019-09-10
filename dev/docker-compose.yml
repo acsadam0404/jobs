@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+
+  db:
+    image: mysql:5.7.22
+    restart: always
+    ports:
+      - 3318:3306
+    volumes:
+      - ./jobs-mysql:/var/lib/mysql
+    environment:
+      MYSQL_USER: job
+      MYSQL_ROOT_PASSWORD: 123qwe
+      MYSQL_PASSWORD: 123qwe
+      MYSQL_DATABASE: jobs
+    command: --character-set-server=utf8

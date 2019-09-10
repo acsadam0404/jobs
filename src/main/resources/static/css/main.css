@@ -1,0 +1,16 @@
+.header {
+    padding: 16px;
+    background: #ffa6a6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-actions {
+    align-self: flex-end;
+}
+
+.content {
+    margin: 16px;
+}
+
